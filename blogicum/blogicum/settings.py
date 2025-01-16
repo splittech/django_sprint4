@@ -137,7 +137,7 @@ LOGIN_REDIRECT_URL = 'blog:index'
 
 MEDIA_ROOT = BASE_DIR / 'media'
 
-CSRF_FAILURE_VIEW = 'pages.views.custom_403_CSRF'
+CSRF_FAILURE_VIEW = 'pages.views.custom_403_csrf'
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 
