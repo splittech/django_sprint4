@@ -11,7 +11,7 @@ class Rules(TemplateView):
     template_name = 'pages/rules.html'
 
 
-def custom_403_CSRF(request, reason=''):
+def custom_403_csrf(request, reason=''):
     return render(request, 'pages/403csrf.html', status=403)
 
 
